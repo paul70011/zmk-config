@@ -26,11 +26,11 @@
 
         layer_1 {
             bindings = <
-&kp K_MUTE  &trans     &trans  &trans     &trans     &trans                    &trans     &trans    &trans    &trans     &trans  &kp GRAVE
-&trans      &kp RA(Q)  &trans  &trans     &kp RA(P)  &trans                    &kp PG_UP  &trans    &kp UP    &kp RA(Y)  &trans  &kp BSLH
-&kp DELETE  &trans     &trans  &kp RA(S)  &trans     &trans                    &kp PG_DN  &kp LEFT  &kp DOWN  &kp RIGHT  &trans  &trans
-&trans      &trans     &trans  &trans     &trans     &trans  &trans    &trans  &trans     &trans    &trans    &trans     &trans  &trans
-                       &trans  &trans     &trans     &mo 2   &trans    &trans  &mo 2      &trans    &kp HOME  &trans
+&kp K_MUTE  &trans     &trans  &trans     &trans     &kp RA(N5)                    &trans     &trans    &trans    &trans     &trans  &kp GRAVE
+&trans      &kp RA(Q)  &trans  &trans     &kp RA(P)  &trans                        &kp PG_UP  &trans    &kp UP    &kp RA(Y)  &trans  &kp BSLH
+&kp DELETE  &trans     &trans  &kp RA(S)  &trans     &trans                        &kp PG_DN  &kp LEFT  &kp DOWN  &kp RIGHT  &trans  &trans
+&trans      &trans     &trans  &trans     &trans     &trans      &trans    &trans  &trans     &trans    &trans    &trans     &trans  &trans
+                       &trans  &trans     &trans     &mo 2       &trans    &trans  &mo 2      &trans    &kp HOME  &trans
             >;
         };
 
