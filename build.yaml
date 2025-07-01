@@ -23,8 +23,8 @@ include:
     shield: sofle_left
   - board: nice_nano_v2
     shield: sofle_right
-  - board: nrf52840dongle_nrf52840
+  - board: nrf52840_mdk_usb_dongle
     shield: sofle_dongle
-    snippet: zmk-usb-logging
+    # snippet: zmk-usb-logging
   - board: nice_nano_v2
     shield: settings_reset
